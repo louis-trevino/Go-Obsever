@@ -1,5 +1,5 @@
-# Go-Obsever
+# Go-Observer
 
-### Author: Louis Trevino
+Author: Louis Trevino
 
-A Go implementation of the Observer pattern.
+### A Go implementation of the Observer pattern.
