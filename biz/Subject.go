@@ -15,7 +15,9 @@ func NewSubject(name string) *Subject {
 }
 
 func (subject *Subject) OnChange(status Status) {
-	fmt.Printf("Subject: %v Status: %v \n", subject, status)
+	for _, iLis := range subject.Listeners {
+		iLis.OnChange(status)
+	}
 }
 
 func (subject *Subject) ListSubscribers() []IObserver {
