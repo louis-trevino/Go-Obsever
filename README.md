@@ -4,6 +4,10 @@ Author: Louis Trevino
 
 ### A Go implementation of the Observer pattern.
 
+## Running the demo
+
+```go run main.go```
+
 ## Contents
 
 * IObserver and IObservable interfaces
